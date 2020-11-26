@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> Food Order Form </title>
+		<link rel= "stylesheet"
+		      type="text/css"
+			  href="newstyles.css"
+		/>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<h1> Food Order Form </h1>
+		<img src="sample.png" /> <br>
+		<label for="username">Username:</label><br>
+		<input type="text" id="username" name="username"><br>
+		<label for="pwd">Password:</label><br>
+		<input type="password" id="pwd" name="pwd"><br>
+		<label for="door">Door no:</label><br>
+		<input type="number" id="door" name="door" value=""><br>
+		<label for="street">Street:</label><br>
+        <input type="text" id="street" name="street" value=""><br>
+		<label for="area">Area:</label><br>
+		<input type="text" id="area" name="area" value=""><br>
+		<br>
+		<input type="radio" id="packof2" name="pack" value="packof2">
+		<label for="packof2">Pack of 2</label><br>
+		<input type="radio" id="packof4" name="pack" value="packof4">
+		<label for="packof4">Pack of 4</label><br>
+		<input type="radio" id="packof6" name="pack" value="packof6">
+		<label for="packof6">Pack of 6</label><br>
+		<br>
+		<input type="checkbox" id="flavor1" name="flavor" value="vanilla">
+		<label for="flavor"> Vanilla </label><br>
+		<input type="checkbox" id="flavor2" name="flavor" value="chocolate">
+		<label for="flavor"> Chocolate </label><br>
+		<input type="checkbox" id="flavor3" name="flavor" value="redvelvet">
+		<label for="flavor"> Red velvet </label><br>
+		<input type="checkbox" id="flavor4" name="flavor" value="coffee">
+		<label for="flavor"> Coffee </label><br>
+		<input type="checkbox" id="flavor5" name="flavor" value="cookie">
+		<label for="flavor"> Cookie Dough </label><br>
+		<input type="submit" value="Place order">
+		<script type="text/javascript">
+			button onclick = document.getElementById("demo").innerHTML = "Thank you for placing the order :) ";
+		</script>
+		<p id="demo"> </p>
+	</body>
+</html>
